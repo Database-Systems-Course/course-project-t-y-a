@@ -1,3 +1,3 @@
-Database Project Proposal
+Database Project Prototype
 
 Add Project Application Prototype in this folder
