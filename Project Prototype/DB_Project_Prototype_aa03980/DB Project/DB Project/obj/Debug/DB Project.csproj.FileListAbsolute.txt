@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\DB Project\DB Project\DB Project\bin\Debug\DB Project.exe.config
+C:\Users\User\Desktop\DB Project\DB Project\DB Project\bin\Debug\DB Project.exe
+C:\Users\User\Desktop\DB Project\DB Project\DB Project\bin\Debug\DB Project.pdb
+C:\Users\User\Desktop\DB Project\DB Project\DB Project\obj\Debug\DB Project.csprojAssemblyReference.cache
+C:\Users\User\Desktop\DB Project\DB Project\DB Project\obj\Debug\DB_Project.Properties.Resources.resources
+C:\Users\User\Desktop\DB Project\DB Project\DB Project\obj\Debug\DB Project.csproj.GenerateResource.cache
+C:\Users\User\Desktop\DB Project\DB Project\DB Project\obj\Debug\DB Project.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\DB Project\DB Project\DB Project\obj\Debug\DB Project.exe
+C:\Users\User\Desktop\DB Project\DB Project\DB Project\obj\Debug\DB Project.pdb
+C:\Users\User\Desktop\DB Project\DB Project\DB Project\obj\Debug\DB_Project.Login.resources
+C:\Users\User\Desktop\DB Project\DB Project\DB Project\obj\Debug\DB_Project.BasicInfo.resources
+C:\Users\User\Desktop\DB Project\DB Project\DB Project\obj\Debug\DB_Project.Faculty.resources
+C:\Users\User\Desktop\DB Project\DB Project\DB Project\obj\Debug\DB_Project.CoursesTaught.resources
+C:\Users\User\Desktop\DB Project\DB Project\DB Project\obj\Debug\DB_Project.Current_Courses.resources
+C:\Users\User\Desktop\DB Project\DB Project\DB Project\obj\Debug\DB_Project.Events.resources
+C:\Users\User\Desktop\DB Project\DB Project\DB Project\obj\Debug\DB_Project.Events_Registration.resources
