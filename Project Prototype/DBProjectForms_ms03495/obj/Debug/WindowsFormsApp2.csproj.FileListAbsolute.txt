@@ -14,3 +14,19 @@ C:\Users\Lenovo\source\repos\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form4.r
 C:\Users\Lenovo\source\repos\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form5.resources
 C:\Users\Lenovo\source\repos\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form6.resources
 C:\Users\Lenovo\source\repos\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form7.resources
+C:\Users\Lenovo\Documents\GitHub\course-project-t-y-a\Project Prototype\DBProjectForms_ms03495\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\Lenovo\Documents\GitHub\course-project-t-y-a\Project Prototype\DBProjectForms_ms03495\bin\Debug\WindowsFormsApp2.exe
+C:\Users\Lenovo\Documents\GitHub\course-project-t-y-a\Project Prototype\DBProjectForms_ms03495\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\Lenovo\Documents\GitHub\course-project-t-y-a\Project Prototype\DBProjectForms_ms03495\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
+C:\Users\Lenovo\Documents\GitHub\course-project-t-y-a\Project Prototype\DBProjectForms_ms03495\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\Lenovo\Documents\GitHub\course-project-t-y-a\Project Prototype\DBProjectForms_ms03495\obj\Debug\WindowsFormsApp2.Form2.resources
+C:\Users\Lenovo\Documents\GitHub\course-project-t-y-a\Project Prototype\DBProjectForms_ms03495\obj\Debug\WindowsFormsApp2.Form3.resources
+C:\Users\Lenovo\Documents\GitHub\course-project-t-y-a\Project Prototype\DBProjectForms_ms03495\obj\Debug\WindowsFormsApp2.Form4.resources
+C:\Users\Lenovo\Documents\GitHub\course-project-t-y-a\Project Prototype\DBProjectForms_ms03495\obj\Debug\WindowsFormsApp2.Form5.resources
+C:\Users\Lenovo\Documents\GitHub\course-project-t-y-a\Project Prototype\DBProjectForms_ms03495\obj\Debug\WindowsFormsApp2.Form6.resources
+C:\Users\Lenovo\Documents\GitHub\course-project-t-y-a\Project Prototype\DBProjectForms_ms03495\obj\Debug\WindowsFormsApp2.Form7.resources
+C:\Users\Lenovo\Documents\GitHub\course-project-t-y-a\Project Prototype\DBProjectForms_ms03495\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\Lenovo\Documents\GitHub\course-project-t-y-a\Project Prototype\DBProjectForms_ms03495\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\Lenovo\Documents\GitHub\course-project-t-y-a\Project Prototype\DBProjectForms_ms03495\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\GitHub\course-project-t-y-a\Project Prototype\DBProjectForms_ms03495\obj\Debug\WindowsFormsApp2.exe
+C:\Users\Lenovo\Documents\GitHub\course-project-t-y-a\Project Prototype\DBProjectForms_ms03495\obj\Debug\WindowsFormsApp2.pdb

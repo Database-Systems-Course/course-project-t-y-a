@@ -39,9 +39,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(324, 29);
+            this.button1.Location = new System.Drawing.Point(65, 37);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(101, 34);
+            this.button1.Size = new System.Drawing.Size(143, 27);
             this.button1.TabIndex = 0;
             this.button1.Text = "Basic Info";
             this.button1.UseVisualStyleBackColor = true;
@@ -49,7 +49,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(690, 467);
+            this.button4.Location = new System.Drawing.Point(177, 335);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(101, 34);
             this.button4.TabIndex = 3;
@@ -59,9 +59,9 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(324, 251);
+            this.button5.Location = new System.Drawing.Point(65, 183);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(101, 34);
+            this.button5.Size = new System.Drawing.Size(143, 31);
             this.button5.TabIndex = 4;
             this.button5.Text = "Add Courses";
             this.button5.UseVisualStyleBackColor = true;
@@ -69,9 +69,9 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(324, 180);
+            this.button6.Location = new System.Drawing.Point(65, 135);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(101, 34);
+            this.button6.Size = new System.Drawing.Size(143, 27);
             this.button6.TabIndex = 5;
             this.button6.Text = "Add Event ";
             this.button6.UseVisualStyleBackColor = true;
@@ -79,9 +79,9 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(324, 93);
+            this.button7.Location = new System.Drawing.Point(65, 85);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(101, 53);
+            this.button7.Size = new System.Drawing.Size(143, 29);
             this.button7.TabIndex = 6;
             this.button7.Text = "Participate in Event";
             this.button7.UseVisualStyleBackColor = true;
@@ -89,9 +89,9 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(324, 328);
+            this.button8.Location = new System.Drawing.Point(65, 236);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(101, 34);
+            this.button8.Size = new System.Drawing.Size(143, 27);
             this.button8.TabIndex = 7;
             this.button8.Text = "Add Student";
             this.button8.UseVisualStyleBackColor = true;
@@ -99,9 +99,9 @@
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(324, 404);
+            this.button9.Location = new System.Drawing.Point(65, 284);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(101, 34);
+            this.button9.Size = new System.Drawing.Size(143, 29);
             this.button9.TabIndex = 8;
             this.button9.Text = "Add Faculty";
             this.button9.UseVisualStyleBackColor = true;
@@ -111,7 +111,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(803, 513);
+            this.ClientSize = new System.Drawing.Size(288, 386);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
