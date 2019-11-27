@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="yes" ?>
 <DBMODEL Version="4.0">
 <SETTINGS>
-<GLOBALSETTINGS ModelName="ERD DIAGRAM" IDModel="0" IDVersion="0" VersionStr="1.0.0.0" Comments="" UseVersionHistroy="1" AutoIncVersion="1" DatabaseType="MySQL" ZoomFac="58.50" XPos="0" YPos="0" DefaultDataType="5" DefaultTablePrefix="0" DefSaveDBConn="" DefSyncDBConn="" DefQueryDBConn="" Printer="" HPageCount="4.0" PageAspectRatio="1.440892512336408" PageOrientation="1" PageFormat="A4 (210x297 mm, 8.26x11.7 inches)" SelectedPages="" UsePositionGrid="0" PositionGridX="20" PositionGridY="20" TableNameInRefs="1" DefaultTableType="0" ActivateRefDefForNewRelations="1" FKPrefix="" FKPostfix="" CreateFKRefDefIndex="1" DBQuoteCharacter="`" CreateSQLforLinkedObjects="0" DefModelFont="Tahoma" CanvasWidth="4096" CanvasHeight="2842" />
+<GLOBALSETTINGS ModelName="ERD DIAGRAM" IDModel="0" IDVersion="0" VersionStr="1.0.0.0" Comments="" UseVersionHistroy="1" AutoIncVersion="1" DatabaseType="MySQL" ZoomFac="66.00" XPos="0" YPos="0" DefaultDataType="5" DefaultTablePrefix="0" DefSaveDBConn="" DefSyncDBConn="" DefQueryDBConn="" Printer="" HPageCount="4.0" PageAspectRatio="1.440892512336408" PageOrientation="1" PageFormat="A4 (210x297 mm, 8.26x11.7 inches)" SelectedPages="" UsePositionGrid="0" PositionGridX="20" PositionGridY="20" TableNameInRefs="1" DefaultTableType="0" ActivateRefDefForNewRelations="1" FKPrefix="" FKPostfix="" CreateFKRefDefIndex="1" DBQuoteCharacter="`" CreateSQLforLinkedObjects="0" DefModelFont="Tahoma" CanvasWidth="4096" CanvasHeight="2842" />
 <DATATYPEGROUPS>
 <DATATYPEGROUP Name="Numeric Types" Icon="1" />
 <DATATYPEGROUP Name="Date and Time Types" Icon="2" />
@@ -278,9 +278,9 @@
 <REGIONS>
 </REGIONS>
 <TABLES>
-<TABLE ID="1936" Tablename="Person" PrevTableName="Table_01" XPos="9" YPos="190" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="1" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="2" >
+<TABLE ID="1936" Tablename="Person" PrevTableName="Table_01" XPos="9" YPos="190" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="2" >
 <COLUMNS>
-<COLUMN ID="1938" ColName="PersonCNIC_No." PrevColName="idPerson" Pos="0" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="1" IsForeignKey="0" DefaultValue="" Comments="">
+<COLUMN ID="1938" ColName="PersonCNIC_No" PrevColName="idPerson" Pos="0" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="1" IsForeignKey="0" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
@@ -301,7 +301,7 @@
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1944" ColName="Contact_No." PrevColName="" Pos="3" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="">
+<COLUMN ID="1944" ColName="Contact_No" PrevColName="Contact_No." Pos="3" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
@@ -343,7 +343,7 @@
 </INDEX>
 </INDICES>
 </TABLE>
-<TABLE ID="1950" Tablename="Faculty" PrevTableName="Table_03" XPos="402" YPos="498" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="1" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="4" >
+<TABLE ID="1950" Tablename="Faculty" PrevTableName="Table_03" XPos="521" YPos="771" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="4" >
 <COLUMNS>
 <COLUMN ID="1956" ColName="Faculty_Id" PrevColName="" Pos="0" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="1" IsForeignKey="0" DefaultValue="" Comments="">
 <OPTIONSELECTED>
@@ -356,13 +356,19 @@
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1974" ColName="Person_PersonCNIC_No." PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<COLUMN ID="2068" ColName="Department_ID" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="2068" ColName="Department_ID" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<COLUMN ID="2447" ColName="Person_PersonCNIC_No" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<OPTIONSELECTED>
+<OPTIONSELECT Value="1" />
+<OPTIONSELECT Value="0" />
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="2451" ColName="Faculty_Person_PersonCNIC_No" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
@@ -375,12 +381,6 @@
 </OPTIONSELECTED>
 </COLUMN>
 <COLUMN ID="2294" ColName="Faculty_Department_ID" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
-<OPTIONSELECTED>
-<OPTIONSELECT Value="1" />
-<OPTIONSELECT Value="0" />
-</OPTIONSELECTED>
-</COLUMN>
-<COLUMN ID="2293" ColName="Faculty_Person_PersonCNIC_No." PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
@@ -423,14 +423,14 @@
 <INDEXCOLUMNS>
 <INDEXCOLUMN idColumn="1956" LengthParam="0" />
 <INDEXCOLUMN idColumn="1975" LengthParam="0" />
-<INDEXCOLUMN idColumn="1974" LengthParam="0" />
 <INDEXCOLUMN idColumn="2068" LengthParam="0" />
+<INDEXCOLUMN idColumn="2447" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 <INDEX ID="1976" IndexName="Faculty_FKIndex1" IndexKind="1" FKRefDef_Obj_id="1973">
 <INDEXCOLUMNS>
-<INDEXCOLUMN idColumn="1974" LengthParam="0" />
 <INDEXCOLUMN idColumn="1975" LengthParam="0" />
+<INDEXCOLUMN idColumn="2447" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 <INDEX ID="2069" IndexName="Faculty_FKIndex2" IndexKind="1" FKRefDef_Obj_id="2067">
@@ -442,15 +442,15 @@
 <INDEXCOLUMNS>
 <INDEXCOLUMN idColumn="2297" LengthParam="0" />
 <INDEXCOLUMN idColumn="2292" LengthParam="0" />
-<INDEXCOLUMN idColumn="2293" LengthParam="0" />
 <INDEXCOLUMN idColumn="2294" LengthParam="0" />
+<INDEXCOLUMN idColumn="2451" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 </INDICES>
 </TABLE>
-<TABLE ID="1951" Tablename="RO Staff" PrevTableName="Table_04" XPos="382" YPos="706" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="1" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="5" >
+<TABLE ID="1951" Tablename="ROStaff" PrevTableName="Table_04" XPos="109" YPos="788" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="5" >
 <COLUMNS>
-<COLUMN ID="1959" ColName="RO Staff_Id" PrevColName="" Pos="0" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="1" IsForeignKey="0" DefaultValue="" Comments="">
+<COLUMN ID="1959" ColName="ROStaff_Id" PrevColName="" Pos="0" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="1" IsForeignKey="0" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
@@ -461,24 +461,24 @@
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1970" ColName="Person_PersonCNIC_No." PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<COLUMN ID="2448" ColName="Person_PersonCNIC_No" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="2399" ColName="RO Staff_Person_PersonCNIC_No." PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<COLUMN ID="2452" ColName="ROStaff_Person_PersonCNIC_No" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="2398" ColName="RO Staff_Person_login_user_Name" PrevColName="" Pos="1" idDatatype="20" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<COLUMN ID="2441" ColName="ROStaff_Person_login_user_Name" PrevColName="" Pos="1" idDatatype="20" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="2397" ColName="RO Staff_Id_2" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<COLUMN ID="2440" ColName="ROStaff_Id_2" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
@@ -512,25 +512,25 @@
 <INDEXCOLUMNS>
 <INDEXCOLUMN idColumn="1959" LengthParam="0" />
 <INDEXCOLUMN idColumn="1971" LengthParam="0" />
-<INDEXCOLUMN idColumn="1970" LengthParam="0" />
+<INDEXCOLUMN idColumn="2448" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 <INDEX ID="1972" IndexName="Staff_FKIndex1" IndexKind="1" FKRefDef_Obj_id="1969">
 <INDEXCOLUMNS>
-<INDEXCOLUMN idColumn="1970" LengthParam="0" />
 <INDEXCOLUMN idColumn="1971" LengthParam="0" />
+<INDEXCOLUMN idColumn="2448" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 <INDEX ID="2304" IndexName="Staff_FKIndex3" IndexKind="1" FKRefDef_Obj_id="2299">
 <INDEXCOLUMNS>
-<INDEXCOLUMN idColumn="2398" LengthParam="0" />
-<INDEXCOLUMN idColumn="2399" LengthParam="0" />
-<INDEXCOLUMN idColumn="2397" LengthParam="0" />
+<INDEXCOLUMN idColumn="2441" LengthParam="0" />
+<INDEXCOLUMN idColumn="2440" LengthParam="0" />
+<INDEXCOLUMN idColumn="2452" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 </INDICES>
 </TABLE>
-<TABLE ID="2031" Tablename="Department" PrevTableName="Table_05" XPos="896" YPos="603" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="1" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="9" >
+<TABLE ID="2031" Tablename="Department" PrevTableName="Table_05" XPos="896" YPos="603" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="9" >
 <COLUMNS>
 <COLUMN ID="2033" ColName="Department_ID" PrevColName="ProgramID" Pos="0" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="1" IsForeignKey="0" DefaultValue="" Comments="">
 <OPTIONSELECTED>
@@ -561,7 +561,7 @@
 </INDEX>
 </INDICES>
 </TABLE>
-<TABLE ID="2073" Tablename="Course" PrevTableName="Table_06" XPos="1323" YPos="196" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="1" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="13" >
+<TABLE ID="2073" Tablename="Course" PrevTableName="Table_06" XPos="1323" YPos="196" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="13" >
 <COLUMNS>
 <COLUMN ID="2075" ColName="Course_ID" PrevColName="" Pos="0" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="1" IsForeignKey="0" DefaultValue="" Comments="">
 <OPTIONSELECTED>
@@ -599,7 +599,7 @@
 </INDEX>
 </INDICES>
 </TABLE>
-<TABLE ID="2083" Tablename="Student_studies_Course" PrevTableName="Student_has_Course" XPos="834" YPos="176" TableType="0" TablePrefix="0" nmTable="1" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="1" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="14" >
+<TABLE ID="2083" Tablename="Student_studies_Course" PrevTableName="Student_has_Course" XPos="1079" YPos="147" TableType="0" TablePrefix="0" nmTable="1" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="14" >
 <COLUMNS>
 <COLUMN ID="2091" ColName="Course_ID" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
@@ -613,18 +613,18 @@
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="2329" ColName="Student_Person_PersonCNIC_No." PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
-<OPTIONSELECTED>
-<OPTIONSELECT Value="1" />
-<OPTIONSELECT Value="0" />
-</OPTIONSELECTED>
-</COLUMN>
 <COLUMN ID="2328" ColName="Student_Person_login_user_Name" PrevColName="" Pos="1" idDatatype="20" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
 <COLUMN ID="2327" ColName="Student_Id" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<OPTIONSELECTED>
+<OPTIONSELECT Value="1" />
+<OPTIONSELECT Value="0" />
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="2453" ColName="Student_Person_PersonCNIC_No" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
@@ -651,9 +651,9 @@
 <INDEXCOLUMNS>
 <INDEXCOLUMN idColumn="2091" LengthParam="0" />
 <INDEXCOLUMN idColumn="2330" LengthParam="0" />
-<INDEXCOLUMN idColumn="2329" LengthParam="0" />
 <INDEXCOLUMN idColumn="2328" LengthParam="0" />
 <INDEXCOLUMN idColumn="2327" LengthParam="0" />
+<INDEXCOLUMN idColumn="2453" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 <INDEX ID="2092" IndexName="Student_has_Course_FKIndex2" IndexKind="1" FKRefDef_Obj_id="2085">
@@ -665,21 +665,15 @@
 <INDEXCOLUMNS>
 <INDEXCOLUMN idColumn="2327" LengthParam="0" />
 <INDEXCOLUMN idColumn="2328" LengthParam="0" />
-<INDEXCOLUMN idColumn="2329" LengthParam="0" />
 <INDEXCOLUMN idColumn="2330" LengthParam="0" />
+<INDEXCOLUMN idColumn="2453" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 </INDICES>
 </TABLE>
-<TABLE ID="2094" Tablename="Faculty_teaches_Course" PrevTableName="Faculty_has_Course" XPos="1291" YPos="370" TableType="0" TablePrefix="0" nmTable="1" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="1" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="17" >
+<TABLE ID="2094" Tablename="Faculty_teaches_Course" PrevTableName="Faculty_has_Course" XPos="1291" YPos="370" TableType="0" TablePrefix="0" nmTable="1" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="17" >
 <COLUMNS>
 <COLUMN ID="2100" ColName="Faculty_Department_ID" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
-<OPTIONSELECTED>
-<OPTIONSELECT Value="1" />
-<OPTIONSELECT Value="0" />
-</OPTIONSELECTED>
-</COLUMN>
-<COLUMN ID="2099" ColName="Faculty_Person_PersonCNIC_No." PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
@@ -702,6 +696,12 @@
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
+<COLUMN ID="2454" ColName="Faculty_Person_PersonCNIC_No" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<OPTIONSELECTED>
+<OPTIONSELECT Value="1" />
+<OPTIONSELECT Value="0" />
+</OPTIONSELECTED>
+</COLUMN>
 </COLUMNS>
 <RELATIONS_END>
 <RELATION_END ID="2095" />
@@ -711,18 +711,18 @@
 <INDEX ID="2104" IndexName="PRIMARY" IndexKind="0" FKRefDef_Obj_id="-1">
 <INDEXCOLUMNS>
 <INDEXCOLUMN idColumn="2100" LengthParam="0" />
-<INDEXCOLUMN idColumn="2099" LengthParam="0" />
 <INDEXCOLUMN idColumn="2098" LengthParam="0" />
 <INDEXCOLUMN idColumn="2097" LengthParam="0" />
 <INDEXCOLUMN idColumn="2102" LengthParam="0" />
+<INDEXCOLUMN idColumn="2454" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 <INDEX ID="2101" IndexName="Faculty_has_Course_FKIndex1" IndexKind="1" FKRefDef_Obj_id="2095">
 <INDEXCOLUMNS>
 <INDEXCOLUMN idColumn="2097" LengthParam="0" />
 <INDEXCOLUMN idColumn="2098" LengthParam="0" />
-<INDEXCOLUMN idColumn="2099" LengthParam="0" />
 <INDEXCOLUMN idColumn="2100" LengthParam="0" />
+<INDEXCOLUMN idColumn="2454" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 <INDEX ID="2103" IndexName="Faculty_has_Course_FKIndex2" IndexKind="1" FKRefDef_Obj_id="2096">
@@ -732,7 +732,7 @@
 </INDEX>
 </INDICES>
 </TABLE>
-<TABLE ID="2107" Tablename="Event" PrevTableName="Table_09" XPos="1284" YPos="700" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="1" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="20" >
+<TABLE ID="2107" Tablename="Event" PrevTableName="Table_09" XPos="1284" YPos="700" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="20" >
 <COLUMNS>
 <COLUMN ID="2109" ColName="Event_Id" PrevColName="" Pos="0" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="1" IsForeignKey="0" DefaultValue="" Comments="">
 <OPTIONSELECTED>
@@ -771,7 +771,7 @@
 </INDEX>
 </INDICES>
 </TABLE>
-<TABLE ID="2118" Tablename="Student_participates_in_Event" PrevTableName="Student_has_Event" XPos="759" YPos="260" TableType="0" TablePrefix="0" nmTable="1" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="1" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="21" >
+<TABLE ID="2118" Tablename="Student_participates_in_Event" PrevTableName="Student_has_Event" XPos="759" YPos="260" TableType="0" TablePrefix="0" nmTable="1" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="21" >
 <COLUMNS>
 <COLUMN ID="2126" ColName="Event_Id" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
@@ -780,12 +780,6 @@
 </OPTIONSELECTED>
 </COLUMN>
 <COLUMN ID="2335" ColName="Student_Department_ID" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
-<OPTIONSELECTED>
-<OPTIONSELECT Value="1" />
-<OPTIONSELECT Value="0" />
-</OPTIONSELECTED>
-</COLUMN>
-<COLUMN ID="2334" ColName="Student_Person_PersonCNIC_No." PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
@@ -802,6 +796,12 @@
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
+<COLUMN ID="2455" ColName="Student_Person_PersonCNIC_No" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<OPTIONSELECTED>
+<OPTIONSELECT Value="1" />
+<OPTIONSELECT Value="0" />
+</OPTIONSELECTED>
+</COLUMN>
 </COLUMNS>
 <RELATIONS_END>
 <RELATION_END ID="2120" />
@@ -812,9 +812,9 @@
 <INDEXCOLUMNS>
 <INDEXCOLUMN idColumn="2126" LengthParam="0" />
 <INDEXCOLUMN idColumn="2335" LengthParam="0" />
-<INDEXCOLUMN idColumn="2334" LengthParam="0" />
 <INDEXCOLUMN idColumn="2333" LengthParam="0" />
 <INDEXCOLUMN idColumn="2332" LengthParam="0" />
+<INDEXCOLUMN idColumn="2455" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 <INDEX ID="2127" IndexName="Student_has_Event_FKIndex2" IndexKind="1" FKRefDef_Obj_id="2120">
@@ -826,21 +826,15 @@
 <INDEXCOLUMNS>
 <INDEXCOLUMN idColumn="2332" LengthParam="0" />
 <INDEXCOLUMN idColumn="2333" LengthParam="0" />
-<INDEXCOLUMN idColumn="2334" LengthParam="0" />
 <INDEXCOLUMN idColumn="2335" LengthParam="0" />
+<INDEXCOLUMN idColumn="2455" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 </INDICES>
 </TABLE>
-<TABLE ID="2129" Tablename="Faculty_participates_in_Event" PrevTableName="Faculty_has_Event" XPos="1204" YPos="523" TableType="0" TablePrefix="0" nmTable="1" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="1" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="24" >
+<TABLE ID="2129" Tablename="Faculty_participates_in_Event" PrevTableName="Faculty_has_Event" XPos="1041" YPos="948" TableType="0" TablePrefix="0" nmTable="1" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="24" >
 <COLUMNS>
 <COLUMN ID="2135" ColName="Faculty_Department_ID" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
-<OPTIONSELECTED>
-<OPTIONSELECT Value="1" />
-<OPTIONSELECT Value="0" />
-</OPTIONSELECTED>
-</COLUMN>
-<COLUMN ID="2134" ColName="Faculty_Person_PersonCNIC_No." PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
@@ -863,6 +857,12 @@
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
+<COLUMN ID="2456" ColName="Faculty_Person_PersonCNIC_No" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<OPTIONSELECTED>
+<OPTIONSELECT Value="1" />
+<OPTIONSELECT Value="0" />
+</OPTIONSELECTED>
+</COLUMN>
 </COLUMNS>
 <RELATIONS_END>
 <RELATION_END ID="2130" />
@@ -872,18 +872,18 @@
 <INDEX ID="2139" IndexName="PRIMARY" IndexKind="0" FKRefDef_Obj_id="-1">
 <INDEXCOLUMNS>
 <INDEXCOLUMN idColumn="2135" LengthParam="0" />
-<INDEXCOLUMN idColumn="2134" LengthParam="0" />
 <INDEXCOLUMN idColumn="2133" LengthParam="0" />
 <INDEXCOLUMN idColumn="2132" LengthParam="0" />
 <INDEXCOLUMN idColumn="2137" LengthParam="0" />
+<INDEXCOLUMN idColumn="2456" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 <INDEX ID="2136" IndexName="Faculty_has_Event_FKIndex1" IndexKind="1" FKRefDef_Obj_id="2130">
 <INDEXCOLUMNS>
 <INDEXCOLUMN idColumn="2132" LengthParam="0" />
 <INDEXCOLUMN idColumn="2133" LengthParam="0" />
-<INDEXCOLUMN idColumn="2134" LengthParam="0" />
 <INDEXCOLUMN idColumn="2135" LengthParam="0" />
+<INDEXCOLUMN idColumn="2456" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 <INDEX ID="2138" IndexName="Faculty_has_Event_FKIndex2" IndexKind="1" FKRefDef_Obj_id="2131">
@@ -893,15 +893,9 @@
 </INDEX>
 </INDICES>
 </TABLE>
-<TABLE ID="2174" Tablename="Student_has_Faculty" PrevTableName="" XPos="308" YPos="325" TableType="0" TablePrefix="0" nmTable="1" Temporary="0" UseStandardInserts="0" StandardInserts="" TableOptions="" Comments="" Collapsed="1" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="30" >
+<TABLE ID="2174" Tablename="Student_has_Faculty" PrevTableName="" XPos="308" YPos="325" TableType="0" TablePrefix="0" nmTable="1" Temporary="0" UseStandardInserts="0" StandardInserts="" TableOptions="" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="30" >
 <COLUMNS>
 <COLUMN ID="2185" ColName="Faculty_Department_ID" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
-<OPTIONSELECTED>
-<OPTIONSELECT Value="1" />
-<OPTIONSELECT Value="0" />
-</OPTIONSELECTED>
-</COLUMN>
-<COLUMN ID="2184" ColName="Faculty_Person_PersonCNIC_No." PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
@@ -924,18 +918,24 @@
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="2339" ColName="Student_Person_PersonCNIC_No." PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
-<OPTIONSELECTED>
-<OPTIONSELECT Value="1" />
-<OPTIONSELECT Value="0" />
-</OPTIONSELECTED>
-</COLUMN>
 <COLUMN ID="2338" ColName="Student_Person_login_user_Name" PrevColName="" Pos="1" idDatatype="20" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
 <COLUMN ID="2337" ColName="Student_Id" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<OPTIONSELECTED>
+<OPTIONSELECT Value="1" />
+<OPTIONSELECT Value="0" />
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="2457" ColName="Faculty_Person_PersonCNIC_No" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<OPTIONSELECTED>
+<OPTIONSELECT Value="1" />
+<OPTIONSELECT Value="0" />
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="2458" ColName="Student_Person_PersonCNIC_No" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
@@ -950,34 +950,34 @@
 <INDEX ID="2187" IndexName="PRIMARY" IndexKind="0" FKRefDef_Obj_id="-1">
 <INDEXCOLUMNS>
 <INDEXCOLUMN idColumn="2185" LengthParam="0" />
-<INDEXCOLUMN idColumn="2184" LengthParam="0" />
 <INDEXCOLUMN idColumn="2183" LengthParam="0" />
 <INDEXCOLUMN idColumn="2182" LengthParam="0" />
 <INDEXCOLUMN idColumn="2340" LengthParam="0" />
-<INDEXCOLUMN idColumn="2339" LengthParam="0" />
 <INDEXCOLUMN idColumn="2338" LengthParam="0" />
 <INDEXCOLUMN idColumn="2337" LengthParam="0" />
+<INDEXCOLUMN idColumn="2457" LengthParam="0" />
+<INDEXCOLUMN idColumn="2458" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 <INDEX ID="2186" IndexName="Student_has_Faculty_FKIndex2" IndexKind="1" FKRefDef_Obj_id="2176">
 <INDEXCOLUMNS>
 <INDEXCOLUMN idColumn="2182" LengthParam="0" />
 <INDEXCOLUMN idColumn="2183" LengthParam="0" />
-<INDEXCOLUMN idColumn="2184" LengthParam="0" />
 <INDEXCOLUMN idColumn="2185" LengthParam="0" />
+<INDEXCOLUMN idColumn="2457" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 <INDEX ID="2341" IndexName="Student_has_Faculty_FKIndex2" IndexKind="1" FKRefDef_Obj_id="2175">
 <INDEXCOLUMNS>
 <INDEXCOLUMN idColumn="2337" LengthParam="0" />
 <INDEXCOLUMN idColumn="2338" LengthParam="0" />
-<INDEXCOLUMN idColumn="2339" LengthParam="0" />
 <INDEXCOLUMN idColumn="2340" LengthParam="0" />
+<INDEXCOLUMN idColumn="2458" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 </INDICES>
 </TABLE>
-<TABLE ID="2188" Tablename="Class" PrevTableName="Table_15" XPos="1675" YPos="123" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="1" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="33" >
+<TABLE ID="2188" Tablename="Class" PrevTableName="Table_15" XPos="1675" YPos="123" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="33" >
 <COLUMNS>
 <COLUMN ID="2191" ColName="ClassID" PrevColName="SectionID" Pos="0" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="1" IsForeignKey="0" DefaultValue="" Comments="">
 <OPTIONSELECTED>
@@ -1016,7 +1016,7 @@
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="2318" ColName="Room No." PrevColName="" Pos="7" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="">
+<COLUMN ID="2318" ColName="RoomNo" PrevColName="Room No." Pos="7" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
@@ -1026,8 +1026,14 @@
 <OPTIONSELECTED>
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="2355" ColName="Semester (F/S)" PrevColName="" Pos="9" idDatatype="20" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="">
+<COLUMN ID="2355" ColName="Semester" PrevColName="Semester (F/S)" Pos="9" idDatatype="20" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="2438" ColName="RoomNo_2" PrevColName="RoomNo." Pos="10" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="">
+<OPTIONSELECTED>
+<OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
@@ -1063,18 +1069,18 @@
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="2344" ColName="Student_Person_PersonCNIC_No." PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
-<OPTIONSELECTED>
-<OPTIONSELECT Value="1" />
-<OPTIONSELECT Value="0" />
-</OPTIONSELECTED>
-</COLUMN>
 <COLUMN ID="2343" ColName="Student_Person_login_user_Name" PrevColName="" Pos="1" idDatatype="20" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
 <COLUMN ID="2342" ColName="Student_Id" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<OPTIONSELECTED>
+<OPTIONSELECT Value="1" />
+<OPTIONSELECT Value="0" />
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="2459" ColName="Student_Person_PersonCNIC_No" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
@@ -1090,9 +1096,9 @@
 <INDEXCOLUMNS>
 <INDEXCOLUMN idColumn="2236" LengthParam="0" />
 <INDEXCOLUMN idColumn="2345" LengthParam="0" />
-<INDEXCOLUMN idColumn="2344" LengthParam="0" />
 <INDEXCOLUMN idColumn="2343" LengthParam="0" />
 <INDEXCOLUMN idColumn="2342" LengthParam="0" />
+<INDEXCOLUMN idColumn="2459" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 <INDEX ID="2237" IndexName="Student_has_Course_FKIndex2" IndexKind="1" FKRefDef_Obj_id="2230">
@@ -1104,13 +1110,13 @@
 <INDEXCOLUMNS>
 <INDEXCOLUMN idColumn="2342" LengthParam="0" />
 <INDEXCOLUMN idColumn="2343" LengthParam="0" />
-<INDEXCOLUMN idColumn="2344" LengthParam="0" />
 <INDEXCOLUMN idColumn="2345" LengthParam="0" />
+<INDEXCOLUMN idColumn="2459" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 </INDICES>
 </TABLE>
-<TABLE ID="2248" Tablename="Fees" PrevTableName="Table_17" XPos="377" YPos="50" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="1" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="40" >
+<TABLE ID="2248" Tablename="Fees" PrevTableName="Table_17" XPos="377" YPos="50" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="40" >
 <COLUMNS>
 <COLUMN ID="2250" ColName="Challan_Id" PrevColName="" Pos="0" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="1" IsForeignKey="0" DefaultValue="" Comments="">
 <OPTIONSELECTED>
@@ -1119,12 +1125,6 @@
 </OPTIONSELECTED>
 </COLUMN>
 <COLUMN ID="2350" ColName="Student_Department_ID" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
-<OPTIONSELECTED>
-<OPTIONSELECT Value="1" />
-<OPTIONSELECT Value="0" />
-</OPTIONSELECTED>
-</COLUMN>
-<COLUMN ID="2349" ColName="Student_Person_PersonCNIC_No." PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
@@ -1141,6 +1141,12 @@
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
+<COLUMN ID="2460" ColName="Student_Person_PersonCNIC_No" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<OPTIONSELECTED>
+<OPTIONSELECT Value="1" />
+<OPTIONSELECT Value="0" />
+</OPTIONSELECTED>
+</COLUMN>
 <COLUMN ID="2252" ColName="Amount" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
@@ -1151,8 +1157,9 @@
 <OPTIONSELECTED>
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="2255" ColName="Fees_Paid" PrevColName="" Pos="3" idDatatype="22" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="">
+<COLUMN ID="2255" ColName="Fees_Paid" PrevColName="" Pos="3" idDatatype="20" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="">
 <OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
 </COLUMNS>
@@ -1164,17 +1171,17 @@
 <INDEXCOLUMNS>
 <INDEXCOLUMN idColumn="2250" LengthParam="0" />
 <INDEXCOLUMN idColumn="2350" LengthParam="0" />
-<INDEXCOLUMN idColumn="2349" LengthParam="0" />
 <INDEXCOLUMN idColumn="2348" LengthParam="0" />
 <INDEXCOLUMN idColumn="2347" LengthParam="0" />
+<INDEXCOLUMN idColumn="2460" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 <INDEX ID="2351" IndexName="Fees_FKIndex1" IndexKind="1" FKRefDef_Obj_id="2256">
 <INDEXCOLUMNS>
 <INDEXCOLUMN idColumn="2347" LengthParam="0" />
 <INDEXCOLUMN idColumn="2348" LengthParam="0" />
-<INDEXCOLUMN idColumn="2349" LengthParam="0" />
 <INDEXCOLUMN idColumn="2350" LengthParam="0" />
+<INDEXCOLUMN idColumn="2460" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 </INDICES>
@@ -1192,13 +1199,13 @@
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1962" ColName="Person_PersonCNIC_No." PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<COLUMN ID="2211" ColName="Department_ID" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="2211" ColName="Department_ID" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<COLUMN ID="2449" ColName="Person_PersonCNIC_No" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
@@ -1242,14 +1249,14 @@
 <INDEXCOLUMNS>
 <INDEXCOLUMN idColumn="1953" LengthParam="0" />
 <INDEXCOLUMN idColumn="1963" LengthParam="0" />
-<INDEXCOLUMN idColumn="1962" LengthParam="0" />
 <INDEXCOLUMN idColumn="2211" LengthParam="0" />
+<INDEXCOLUMN idColumn="2449" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 <INDEX ID="1964" IndexName="Student_FKIndex1" IndexKind="1" FKRefDef_Obj_id="1961">
 <INDEXCOLUMNS>
-<INDEXCOLUMN idColumn="1962" LengthParam="0" />
 <INDEXCOLUMN idColumn="1963" LengthParam="0" />
+<INDEXCOLUMN idColumn="2449" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 <INDEX ID="2212" IndexName="Student_FKIndex2" IndexKind="1" FKRefDef_Obj_id="2064">
@@ -1261,26 +1268,26 @@
 </TABLE>
 </TABLES>
 <RELATIONS>
-<RELATION ID="1969" RelationName="Rel_03" Kind="0" SrcTable="1936" DestTable="1951" FKFields="PersonCNIC_No.=Person_PersonCNIC_No.\nlogin_user_Name=Person_login_user_Name\n" FKFieldsComments="\n\n" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="1972" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="8" />
-<RELATION ID="1973" RelationName="Rel_04" Kind="0" SrcTable="1936" DestTable="1950" FKFields="PersonCNIC_No.=Person_PersonCNIC_No.\nlogin_user_Name=Person_login_user_Name\n" FKFieldsComments="\n\n" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="1976" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="8" />
+<RELATION ID="1969" RelationName="Rel_03" Kind="0" SrcTable="1936" DestTable="1951" FKFields="login_user_Name=Person_login_user_Name\nPersonCNIC_No=Person_PersonCNIC_No\n" FKFieldsComments="\n\n" relDirection="3" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="1972" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="8" />
+<RELATION ID="1973" RelationName="Rel_04" Kind="0" SrcTable="1936" DestTable="1950" FKFields="login_user_Name=Person_login_user_Name\nPersonCNIC_No=Person_PersonCNIC_No\n" FKFieldsComments="\n\n" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="1976" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="8" />
 <RELATION ID="2067" RelationName="Rel_08" Kind="1" SrcTable="2031" DestTable="1950" FKFields="Department_ID=Department_ID\n" FKFieldsComments="\n" relDirection="4" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2069" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="11" />
 <RELATION ID="2085" RelationName="Rel_11" Kind="1" SrcTable="2073" DestTable="2083" FKFields="Course_ID=Course_ID\n" FKFieldsComments="\n" relDirection="4" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2092" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="16" />
-<RELATION ID="2095" RelationName="Rel_12" Kind="1" SrcTable="1950" DestTable="2094" FKFields="Faculty_Id=Faculty_Id\nPerson_login_user_Name=Faculty_Person_login_user_Name\nPerson_PersonCNIC_No.=Faculty_Person_PersonCNIC_No.\nDepartment_ID=Faculty_Department_ID\n" FKFieldsComments="\n\n\n\n" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2101" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="18" />
+<RELATION ID="2095" RelationName="Rel_12" Kind="1" SrcTable="1950" DestTable="2094" FKFields="Faculty_Id=Faculty_Id\nPerson_login_user_Name=Faculty_Person_login_user_Name\nDepartment_ID=Faculty_Department_ID\nPerson_PersonCNIC_No=Faculty_Person_PersonCNIC_No\n" FKFieldsComments="\n\n\n\n" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2101" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="18" />
 <RELATION ID="2096" RelationName="Rel_13" Kind="1" SrcTable="2073" DestTable="2094" FKFields="Course_ID=Course_ID\n" FKFieldsComments="\n" relDirection="3" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2103" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="19" />
 <RELATION ID="2120" RelationName="Rel_12" Kind="1" SrcTable="2107" DestTable="2118" FKFields="Event_Id=Event_Id\n" FKFieldsComments="\n" relDirection="4" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2127" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="23" />
-<RELATION ID="2130" RelationName="Rel_13" Kind="1" SrcTable="1950" DestTable="2129" FKFields="Faculty_Id=Faculty_Id\nPerson_login_user_Name=Faculty_Person_login_user_Name\nPerson_PersonCNIC_No.=Faculty_Person_PersonCNIC_No.\nDepartment_ID=Faculty_Department_ID\n" FKFieldsComments="\n\n\n\n" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2136" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="25" />
-<RELATION ID="2131" RelationName="Rel_14" Kind="1" SrcTable="2107" DestTable="2129" FKFields="Event_Id=Event_Id\n" FKFieldsComments="\n" relDirection="1" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2138" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="26" />
-<RELATION ID="2176" RelationName="Rel_21" Kind="1" SrcTable="1950" DestTable="2174" FKFields="Faculty_Id=Faculty_Id\nPerson_login_user_Name=Faculty_Person_login_user_Name\nPerson_PersonCNIC_No.=Faculty_Person_PersonCNIC_No.\nDepartment_ID=Faculty_Department_ID\n" FKFieldsComments="\n\n\n\n" relDirection="1" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2186" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="32" />
+<RELATION ID="2130" RelationName="Rel_13" Kind="1" SrcTable="1950" DestTable="2129" FKFields="Faculty_Id=Faculty_Id\nPerson_login_user_Name=Faculty_Person_login_user_Name\nDepartment_ID=Faculty_Department_ID\nPerson_PersonCNIC_No=Faculty_Person_PersonCNIC_No\n" FKFieldsComments="\n\n\n\n" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2136" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="25" />
+<RELATION ID="2131" RelationName="Rel_14" Kind="1" SrcTable="2107" DestTable="2129" FKFields="Event_Id=Event_Id\n" FKFieldsComments="\n" relDirection="3" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2138" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="26" />
+<RELATION ID="2176" RelationName="Rel_21" Kind="1" SrcTable="1950" DestTable="2174" FKFields="Faculty_Id=Faculty_Id\nPerson_login_user_Name=Faculty_Person_login_user_Name\nDepartment_ID=Faculty_Department_ID\nPerson_PersonCNIC_No=Faculty_Person_PersonCNIC_No\n" FKFieldsComments="\n\n\n\n" relDirection="1" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2186" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="32" />
 <RELATION ID="2216" RelationName="Rel_25" Kind="1" SrcTable="2073" DestTable="2188" FKFields="Course_ID=Course_ID\n" FKFieldsComments="\n" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2218" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="35" />
 <RELATION ID="2230" RelationName="Rel_28" Kind="1" SrcTable="2073" DestTable="2228" FKFields="Course_ID=Course_ID\n" FKFieldsComments="\n" relDirection="4" MidOffset="21" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2237" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="39" />
-<RELATION ID="2290" RelationName="faculty has dean" Kind="2" SrcTable="1950" DestTable="1950" FKFields="Faculty_Id=Dean\nPerson_login_user_Name=Faculty_Person_login_user_Name\nPerson_PersonCNIC_No.=Faculty_Person_PersonCNIC_No.\nDepartment_ID=Faculty_Department_ID\n" FKFieldsComments="\n\n\n\n" relDirection="2" MidOffset="23" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2295" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="42" />
-<RELATION ID="2299" RelationName="Rel_25" Kind="2" SrcTable="1951" DestTable="1951" FKFields="Person_login_user_Name=RO Staff_Person_login_user_Name\nPerson_PersonCNIC_No.=RO Staff_Person_PersonCNIC_No.\nRO Staff_Id=RO Staff_Id_2\n" FKFieldsComments="\n\n\n" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2304" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="43" />
-<RELATION ID="2084" RelationName="Rel_10" Kind="1" SrcTable="1949" DestTable="2083" FKFields="Student_Id=Student_Id\nPerson_login_user_Name=Student_Person_login_user_Name\nPerson_PersonCNIC_No.=Student_Person_PersonCNIC_No.\nDepartment_ID=Student_Department_ID\n" FKFieldsComments="\n\n\n\n" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2331" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="15" />
-<RELATION ID="2119" RelationName="Rel_11" Kind="1" SrcTable="1949" DestTable="2118" FKFields="Student_Id=Student_Id\nPerson_login_user_Name=Student_Person_login_user_Name\nPerson_PersonCNIC_No.=Student_Person_PersonCNIC_No.\nDepartment_ID=Student_Department_ID\n" FKFieldsComments="\n\n\n\n" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2336" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="22" />
-<RELATION ID="2175" RelationName="Rel_20" Kind="1" SrcTable="1949" DestTable="2174" FKFields="Student_Id=Student_Id\nPerson_login_user_Name=Student_Person_login_user_Name\nPerson_PersonCNIC_No.=Student_Person_PersonCNIC_No.\nDepartment_ID=Student_Department_ID\n" FKFieldsComments="\n\n\n\n" relDirection="3" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2341" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="31" />
-<RELATION ID="2229" RelationName="Rel_27" Kind="1" SrcTable="1949" DestTable="2228" FKFields="Student_Id=Student_Id\nPerson_login_user_Name=Student_Person_login_user_Name\nPerson_PersonCNIC_No.=Student_Person_PersonCNIC_No.\nDepartment_ID=Student_Department_ID\n" FKFieldsComments="\n\n\n\n" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2346" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="38" />
-<RELATION ID="2256" RelationName="Rel_23" Kind="0" SrcTable="1949" DestTable="2248" FKFields="Student_Id=Student_Id\nPerson_login_user_Name=Student_Person_login_user_Name\nPerson_PersonCNIC_No.=Student_Person_PersonCNIC_No.\nDepartment_ID=Student_Department_ID\n" FKFieldsComments="\n\n\n\n" relDirection="1" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2351" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="41" />
-<RELATION ID="1961" RelationName="Rel_01" Kind="0" SrcTable="1936" DestTable="1949" FKFields="PersonCNIC_No.=Person_PersonCNIC_No.\nlogin_user_Name=Person_login_user_Name\n" FKFieldsComments="\n\n" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="1964" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="6" />
+<RELATION ID="2290" RelationName="faculty has dean" Kind="2" SrcTable="1950" DestTable="1950" FKFields="Faculty_Id=Dean\nPerson_login_user_Name=Faculty_Person_login_user_Name\nDepartment_ID=Faculty_Department_ID\nPerson_PersonCNIC_No=Faculty_Person_PersonCNIC_No\n" FKFieldsComments="\n\n\n\n" relDirection="2" MidOffset="23" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2295" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="42" />
+<RELATION ID="2299" RelationName="Rel_25" Kind="2" SrcTable="1951" DestTable="1951" FKFields="Person_login_user_Name=ROStaff_Person_login_user_Name\nROStaff_Id=ROStaff_Id_2\nPerson_PersonCNIC_No=ROStaff_Person_PersonCNIC_No\n" FKFieldsComments="\n\n\n" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2304" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="43" />
+<RELATION ID="2084" RelationName="Rel_10" Kind="1" SrcTable="1949" DestTable="2083" FKFields="Student_Id=Student_Id\nPerson_login_user_Name=Student_Person_login_user_Name\nDepartment_ID=Student_Department_ID\nPerson_PersonCNIC_No=Student_Person_PersonCNIC_No\n" FKFieldsComments="\n\n\n\n" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2331" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="15" />
+<RELATION ID="2119" RelationName="Rel_11" Kind="1" SrcTable="1949" DestTable="2118" FKFields="Student_Id=Student_Id\nPerson_login_user_Name=Student_Person_login_user_Name\nDepartment_ID=Student_Department_ID\nPerson_PersonCNIC_No=Student_Person_PersonCNIC_No\n" FKFieldsComments="\n\n\n\n" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2336" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="22" />
+<RELATION ID="2175" RelationName="Rel_20" Kind="1" SrcTable="1949" DestTable="2174" FKFields="Student_Id=Student_Id\nPerson_login_user_Name=Student_Person_login_user_Name\nDepartment_ID=Student_Department_ID\nPerson_PersonCNIC_No=Student_Person_PersonCNIC_No\n" FKFieldsComments="\n\n\n\n" relDirection="3" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2341" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="31" />
+<RELATION ID="2229" RelationName="Rel_27" Kind="1" SrcTable="1949" DestTable="2228" FKFields="Student_Id=Student_Id\nPerson_login_user_Name=Student_Person_login_user_Name\nDepartment_ID=Student_Department_ID\nPerson_PersonCNIC_No=Student_Person_PersonCNIC_No\n" FKFieldsComments="\n\n\n\n" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2346" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="38" />
+<RELATION ID="2256" RelationName="Rel_23" Kind="0" SrcTable="1949" DestTable="2248" FKFields="Student_Id=Student_Id\nPerson_login_user_Name=Student_Person_login_user_Name\nDepartment_ID=Student_Department_ID\nPerson_PersonCNIC_No=Student_Person_PersonCNIC_No\n" FKFieldsComments="\n\n\n\n" relDirection="1" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2351" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="41" />
+<RELATION ID="1961" RelationName="Rel_01" Kind="0" SrcTable="1936" DestTable="1949" FKFields="login_user_Name=Person_login_user_Name\nPersonCNIC_No=Person_PersonCNIC_No\n" FKFieldsComments="\n\n" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="1964" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="6" />
 <RELATION ID="2064" RelationName="Rel_07" Kind="1" SrcTable="2031" DestTable="1949" FKFields="Department_ID=Department_ID\n" FKFieldsComments="\n" relDirection="4" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="2212" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="10" />
 </RELATIONS>
 <NOTES>
