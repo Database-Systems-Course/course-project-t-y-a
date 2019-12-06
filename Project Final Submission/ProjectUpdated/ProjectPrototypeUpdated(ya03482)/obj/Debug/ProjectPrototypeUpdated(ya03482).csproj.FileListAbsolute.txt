@@ -1,0 +1,56 @@
+c:\users\yousuf moiz\documents\visual studio 2017\Projects\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\bin\Debug\ProjectPrototypeUpdated(ya03482).exe.config
+c:\users\yousuf moiz\documents\visual studio 2017\Projects\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\bin\Debug\ProjectPrototypeUpdated(ya03482).exe
+c:\users\yousuf moiz\documents\visual studio 2017\Projects\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\bin\Debug\ProjectPrototypeUpdated(ya03482).pdb
+c:\users\yousuf moiz\documents\visual studio 2017\Projects\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated_ya03482_.Form1.resources
+c:\users\yousuf moiz\documents\visual studio 2017\Projects\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated_ya03482_.Properties.Resources.resources
+c:\users\yousuf moiz\documents\visual studio 2017\Projects\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated(ya03482).csproj.GenerateResource.Cache
+c:\users\yousuf moiz\documents\visual studio 2017\Projects\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated(ya03482).exe
+c:\users\yousuf moiz\documents\visual studio 2017\Projects\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated(ya03482).pdb
+c:\users\yousuf moiz\documents\visual studio 2017\Projects\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated(ya03482).csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\bin\Debug\ProjectPrototypeUpdated(ya03482).exe.config
+C:\Users\Lenovo\Desktop\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\bin\Debug\ProjectPrototypeUpdated(ya03482).exe
+C:\Users\Lenovo\Desktop\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\bin\Debug\ProjectPrototypeUpdated(ya03482).pdb
+C:\Users\Lenovo\Desktop\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated(ya03482).csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated_ya03482_.Form1.resources
+C:\Users\Lenovo\Desktop\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated_ya03482_.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated(ya03482).csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated(ya03482).csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated(ya03482).exe
+C:\Users\Lenovo\Desktop\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated(ya03482).pdb
+C:\Users\Lenovo\Desktop\DATABASE PROJECT\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\bin\Debug\ProjectPrototypeUpdated(ya03482).exe.config
+C:\Users\Lenovo\Desktop\DATABASE PROJECT\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\bin\Debug\ProjectPrototypeUpdated(ya03482).exe
+C:\Users\Lenovo\Desktop\DATABASE PROJECT\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\bin\Debug\ProjectPrototypeUpdated(ya03482).pdb
+C:\Users\Lenovo\Desktop\DATABASE PROJECT\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated(ya03482).csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\DATABASE PROJECT\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated_ya03482_.Form1.resources
+C:\Users\Lenovo\Desktop\DATABASE PROJECT\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated_ya03482_.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\DATABASE PROJECT\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated(ya03482).csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\DATABASE PROJECT\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated(ya03482).csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\DATABASE PROJECT\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated(ya03482).exe
+C:\Users\Lenovo\Desktop\DATABASE PROJECT\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated(ya03482).pdb
+C:\Users\Lenovo\Desktop\DATABASE PROJECT\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated_ya03482_.MSAddDel.resources
+C:\Users\Lenovo\Desktop\DATABASE PROJECT\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated_ya03482_.AAFaculty.resources
+C:\Users\Lenovo\Desktop\DATABASE PROJECT\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated_ya03482_.Login.resources
+C:\Users\Yousuf Moiz\Desktop\ConsolidatedForms\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\bin\Debug\ProjectPrototypeUpdated(ya03482).exe.config
+C:\Users\Yousuf Moiz\Desktop\ConsolidatedForms\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\bin\Debug\ProjectPrototypeUpdated(ya03482).exe
+C:\Users\Yousuf Moiz\Desktop\ConsolidatedForms\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\bin\Debug\ProjectPrototypeUpdated(ya03482).pdb
+C:\Users\Yousuf Moiz\Desktop\ConsolidatedForms\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated(ya03482).csprojResolveAssemblyReference.cache
+C:\Users\Yousuf Moiz\Desktop\ConsolidatedForms\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated_ya03482_.Form1.resources
+C:\Users\Yousuf Moiz\Desktop\ConsolidatedForms\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated_ya03482_.MSAddDel.resources
+C:\Users\Yousuf Moiz\Desktop\ConsolidatedForms\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated_ya03482_.AAFaculty.resources
+C:\Users\Yousuf Moiz\Desktop\ConsolidatedForms\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated_ya03482_.Login.resources
+C:\Users\Yousuf Moiz\Desktop\ConsolidatedForms\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated_ya03482_.Properties.Resources.resources
+C:\Users\Yousuf Moiz\Desktop\ConsolidatedForms\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated(ya03482).csproj.GenerateResource.Cache
+C:\Users\Yousuf Moiz\Desktop\ConsolidatedForms\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated(ya03482).exe
+C:\Users\Yousuf Moiz\Desktop\ConsolidatedForms\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated(ya03482).pdb
+C:\Users\Yousuf Moiz\Desktop\ProjectVer1\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\bin\Debug\ProjectPrototypeUpdated(ya03482).exe.config
+C:\Users\Yousuf Moiz\Desktop\ProjectVer1\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\bin\Debug\ProjectPrototypeUpdated(ya03482).exe
+C:\Users\Yousuf Moiz\Desktop\ProjectVer1\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\bin\Debug\ProjectPrototypeUpdated(ya03482).pdb
+C:\Users\Yousuf Moiz\Desktop\ProjectVer1\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated(ya03482).csprojResolveAssemblyReference.cache
+C:\Users\Yousuf Moiz\Desktop\ProjectVer1\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated_ya03482_.Form1.resources
+C:\Users\Yousuf Moiz\Desktop\ProjectVer1\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated_ya03482_.MSAddDel.resources
+C:\Users\Yousuf Moiz\Desktop\ProjectVer1\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated_ya03482_.AAFaculty.resources
+C:\Users\Yousuf Moiz\Desktop\ProjectVer1\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated_ya03482_.Login.resources
+C:\Users\Yousuf Moiz\Desktop\ProjectVer1\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated_ya03482_.Properties.Resources.resources
+C:\Users\Yousuf Moiz\Desktop\ProjectVer1\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated(ya03482).csproj.GenerateResource.Cache
+C:\Users\Yousuf Moiz\Desktop\ProjectVer1\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated(ya03482).exe
+C:\Users\Yousuf Moiz\Desktop\ProjectVer1\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\ProjectPrototypeUpdated(ya03482)\obj\Debug\ProjectPrototypeUpdated(ya03482).pdb
